@@ -1,0 +1,7 @@
+radius=int(input())
+area_of_a_circle=(3.14159)*(radius**2)
+#area of circle
+print(area_of_a_circle)
+#circumference of a circle
+circum_of_circle=2*(3.14159)*(radius)
+print(circum_of_circle)

@@ -1,0 +1,52 @@
+it_companies = {'Facebook','Google','Microsoft','Apple','IBM','Oracle','Amazon'}
+A = {19,22,24,20,25,26}
+B = {19,22,20,25,26,24,28,27}
+age = {22,19,24,25,26,24,25,24}
+
+#printing the lenght of the it companies
+print ("Length of the set of it_companies is", len(it_companies))
+it_companies.add("Twitter")
+
+#Adding one more it companies
+
+print("new it_companies are", it_companies)
+it_companies.update({"Cognizant","Deloitte"})
+
+#updating by adding multiple companies
+print("after adding multiple IT companies", it_companies)
+
+#Removing one it company
+it_companies.remove("Apple")
+print("after removing one company",it_companies)
+
+#if the required element doesn't exist, remove method raises an error; whereas discard method will not raise a error
+
+AJB= A.union(B)
+# Union of both A and B
+print("after joining A and B: ",AJB)
+
+# Intersection
+AIB = A.intersection(B)
+print("after intersecting A and B: ", AIB)
+# A is subset of B
+print("A is subset of B",A.issubset(B))
+#A disjoint set of B
+print("A is disjoint set of B :",A.isdisjoint(B))
+# Joining A with B
+print("joining A with B ",A.union(B))
+#Joining B with A
+print("Joining B with A",B.union(A))
+
+#symmetric difference between two sets
+print("Symmetric diff between A and B is",A.symmetric_difference(B))
+#clearing elements from A and B
+A.clear()
+B.clear()
+print(A)
+print(B)
+
+#Converting of ages to set
+set_age = set(age)
+print("ages=",set_age)
+print("Length of list age :",len(age))
+print("Length os set age:", len(set_age))

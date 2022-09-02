@@ -1,0 +1,34 @@
+
+dog={}
+#printing empty dictionary
+print(dog)
+
+#printing all details about the dog
+
+dog = {'Name' :'Snoopy',"Color":"Brown","Breed":"German Shepherd", "Legs":"Brown and short", "Age":"Three"}
+print(dog)
+student={}
+
+#printing all the details of student
+
+student={"first_name":"Vineeth Reddy", "last_name":"Maadugula", "gender":"Male","age":"24","marital status":"single","skills":"C",'country':'India','addres':'1120W Hanamkonda'}
+print("Dictionary: ",student)
+
+#printing length of student dict
+
+print("lenght of student disctionary is", len(student))
+
+#adding some more skills
+
+List=[student['skills'],type(student['skills'])]
+print("the skill and type of skill is",List)
+student['skills']="C,java,matlab"
+print(student)
+
+#printing keys
+
+print(student.keys())
+
+#printing values
+
+print(student.values())

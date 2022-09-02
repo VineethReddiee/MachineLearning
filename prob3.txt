@@ -1,0 +1,24 @@
+#Creating sisters tuple
+Sisters=('Shravani','Swapna')
+print(Sisters)
+
+#creating brothers tuple
+
+Brothers=('Prashanth','Raju','Sagar')
+print(Brothers)
+
+#combining both tuples
+
+Siblings=Sisters+Brothers
+print(Siblings)
+
+#printing length of siblings
+
+print("Number of siblings are", len(Siblings))
+
+Fathermother=list(Siblings)
+Fathermother.append('Ashok')
+Fathermother.append('Pushpa')
+Siblings=tuple(Fathermother)
+family_members=tuple(Siblings)
+print(family_members)

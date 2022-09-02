@@ -1,0 +1,7 @@
+string="I am a teacher and I love to inspire and teach people"
+string_words=string.split()
+set_words= set(string_words)
+#finding number of unique words
+print("Number of unique words are:", len(set_words))
+#printing unique words
+print("the unique words are",set_words)

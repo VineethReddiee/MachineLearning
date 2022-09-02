@@ -1,0 +1,14 @@
+print("Enter the number of students")
+number_of_students=int(input())
+in_Lbs=[]
+in_Kgs=[]
+#taking weights of students
+print("enter weight of "+str(number_of_students)+" students")
+for k in range(number_of_students):
+    s=int(input(str(k+1)+" Student weight is"))
+    in_Lbs.append(s)
+    #Conversion of Lbs to Kgs
+    in_Kgs.append(float("{:.2f}".format(s*0.453)))
+print("Weight of student in Lbs is",in_Lbs)
+print("Weight of student in Kgs is",in_Kgs)
+    

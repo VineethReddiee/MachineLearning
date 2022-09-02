@@ -1,0 +1,10 @@
+
+Name=["Asabeneh"]
+Age=[250]
+Country=["Finland"]
+City=["Helsinki"]
+
+#to get sequence
+print("Name\t\t\tAge\t\tCountry\t\tCity")
+for i in range(len(Name)):
+    print(Name[i]+"\t\t"+str(Age[i])+"\t\t"+Country[i]+"\t\t"+City[i])
